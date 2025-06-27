@@ -88,11 +88,11 @@ prop:
 #-------------------------------------------------------------
 logging:
   level:
-    root: debug # trace, debug, info, warn, error, fatal
-    org.springframework: debug
-    org.springframework.jdbc: debug
+    root: info # trace, debug, info, warn, error, fatal
+    org.springframework: info
+    org.springframework.jdbc: info
     org.hibernate.type: off
-    com.skax: debug
+    com.skax: info
     
     jdbc:
       connection: off

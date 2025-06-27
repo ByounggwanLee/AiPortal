@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * 샘플 JPA 리포지토리
+ * 샘플 Repository
  */
 @Repository
 public interface SampleRepository extends JpaRepository<Sample, Long> {
