@@ -15,16 +15,6 @@
  * Copyright (C) 2025 by SK co.,Ltd. All right reserved.
 **/
 
-package com.skax.aiportal.config;
-
-/**
- * Spring Boot OpenApi DOC 환경설정 클래스
- * 
- * @name_ko  Spring Boot OpenApi DOC 환경설정 클래스
- * @author 이병관
-**/
-//import java.util.List;
-
 //import org.springdoc.core.GroupedOpenApi;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -34,7 +24,6 @@ import org.springframework.context.annotation.Configuration;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
-import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.info.License;
 //import io.swagger.v3.oas.models.security.SecurityRequirement;
 //import io.swagger.v3.oas.models.security.SecurityScheme;
